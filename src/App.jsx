@@ -1,9 +1,15 @@
+import Navigation from "./Navigation/Navigation"
+import Products from "./Products/Products"
+import Recommended from "./Recommended/Recommended"
 
 const App = () => {
   return (
-    <div>
-      <h1>Meh!</h1>
-    </div>
+    <>
+     <Navigation /> 
+     <Products />
+      <Recommended />
+    </>
+   
   )
 }
 
